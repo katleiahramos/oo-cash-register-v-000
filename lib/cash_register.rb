@@ -13,8 +13,6 @@ attr_accessor :items, :total, :discount, :last_price
   end
 
 
-  
-
   def add_item(item, price, quantity = 1)
     @total = total + (price*quantity)
     quantity.times do
